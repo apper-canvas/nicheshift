@@ -1,0 +1,166 @@
+[
+  {
+    "Id": 1,
+    "title": "Central Park Dog Walk",
+    "description": "Join us for a leisurely walk through Central Park with our furry friends. We'll explore the scenic routes and let our dogs socialize at the designated off-leash areas. Perfect for dogs of all sizes and energy levels!",
+    "date": "2024-01-20T10:00:00Z",
+    "location": "Central Park Entrance, 5th Ave & 72nd St",
+    "organizerId": "member1",
+    "organizer": {
+      "name": "Sarah Johnson",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+    },
+    "attendees": [
+      {
+        "name": "Mike Chen",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Emily Rodriguez",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "David Kim",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Jennifer Walsh",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "maxAttendees": 15,
+    "createdAt": "2024-01-10T12:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Puppy Training Workshop",
+    "description": "Learn essential training techniques for puppies aged 3-12 months. Professional trainer will cover basic commands, potty training, and socialization tips. Bring your puppy and some treats!",
+    "date": "2024-01-22T14:00:00Z",
+    "location": "Community Center, 123 Main St",
+    "organizerId": "member3",
+    "organizer": {
+      "name": "Emily Rodriguez",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    "attendees": [
+      {
+        "name": "Alex Thompson",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Lisa Park",
+        "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "maxAttendees": 10,
+    "createdAt": "2024-01-12T15:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Dog Beach Day",
+    "description": "Escape the city for a day at the dog-friendly beach! Watch your pups splash in the waves and play in the sand. We'll have a picnic lunch and plenty of water for our four-legged friends.",
+    "date": "2024-01-25T11:00:00Z",
+    "location": "Montauk Dog Beach, Long Island",
+    "organizerId": "member5",
+    "organizer": {
+      "name": "Jennifer Walsh",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+    },
+    "attendees": [
+      {
+        "name": "Sarah Johnson",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Mike Chen",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "David Kim",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "maxAttendees": 20,
+    "createdAt": "2024-01-13T09:00:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Indoor Agility Course",
+    "description": "Beat the winter blues with an indoor agility course! Suitable for all skill levels. We'll set up tunnels, jumps, and weave poles. Great exercise for both dogs and owners on cold days.",
+    "date": "2024-01-27T16:00:00Z",
+    "location": "Pet Paradise Training Center, 456 Broadway",
+    "organizerId": "member6",
+    "organizer": {
+      "name": "Alex Thompson",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    "attendees": [
+      {
+        "name": "Emily Rodriguez",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Robert Martinez",
+        "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "maxAttendees": 12,
+    "createdAt": "2024-01-14T11:00:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Dog Photo Shoot Meetup",
+    "description": "Capture beautiful memories of your furry friend! Professional photographer will be on hand to take stunning photos. We'll explore scenic locations in the city and create lasting memories.",
+    "date": "2024-01-28T13:00:00Z",
+    "location": "Brooklyn Bridge Park",
+    "organizerId": "member7",
+    "organizer": {
+      "name": "Lisa Park",
+      "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face"
+    },
+    "attendees": [
+      {
+        "name": "Jennifer Walsh",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Sarah Johnson",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Mike Chen",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "Alex Thompson",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        "name": "David Kim",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "maxAttendees": null,
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "Senior Dog Support Group",
+    "description": "A gentle gathering for owners of senior dogs (7+ years). Share experiences, tips for caring for older pups, and enjoy a slow-paced walk in a quiet area of the park.",
+    "date": "2024-01-30T15:00:00Z",
+    "location": "Marcus Garvey Park, Harlem",
+    "organizerId": "member8",
+    "organizer": {
+      "name": "Robert Martinez",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face"
+    },
+    "attendees": [
+      {
+        "name": "Lisa Park",
+        "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face"
+      }
+    ],
+    "maxAttendees": 8,
+    "createdAt": "2024-01-16T14:00:00Z"
+  }
+]

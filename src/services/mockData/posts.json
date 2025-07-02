@@ -1,0 +1,173 @@
+[
+  {
+    "Id": 1,
+    "authorId": "member1",
+    "author": {
+      "name": "Sarah Johnson",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face",
+      "online": true
+    },
+    "content": "Just had the most amazing walk with Luna at Central Park! The weather was perfect and she made three new furry friends. There's nothing like seeing your pup's tail wagging with pure joy. Anyone else planning to visit the dog run this weekend?",
+    "imageUrl": "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=600&h=400&fit=crop",
+    "likes": ["member2", "member3", "member5"],
+    "comments": [
+      {
+        "Id": 1,
+        "content": "Luna is such a sweetheart! Max loves playing with her.",
+        "author": {
+          "name": "Mike Chen",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-15T14:30:00Z"
+      },
+      {
+        "Id": 2,
+        "content": "We'll be there Sunday morning if the weather holds up!",
+        "author": {
+          "name": "Emily Rodriguez",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-15T15:15:00Z"
+      }
+    ],
+    "timestamp": "2024-01-15T14:00:00Z"
+  },
+  {
+    "Id": 2,
+    "authorId": "member2",
+    "author": {
+      "name": "Mike Chen",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "online": true
+    },
+    "content": "PSA: The new dog-friendly cafe on 5th Avenue is incredible! They have a special puppuccino menu and plenty of space for our four-legged friends. Max approved with enthusiastic tail wags! 🐕☕",
+    "imageUrl": null,
+    "likes": ["member1", "member4", "member6"],
+    "comments": [
+      {
+        "Id": 3,
+        "content": "Thanks for the recommendation! Adding it to our weekend plans.",
+        "author": {
+          "name": "David Kim",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-15T11:45:00Z"
+      }
+    ],
+    "timestamp": "2024-01-15T11:30:00Z"
+  },
+  {
+    "Id": 3,
+    "authorId": "member3",
+    "author": {
+      "name": "Emily Rodriguez",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "online": false
+    },
+    "content": "Bella learned a new trick today! After weeks of practice, she finally mastered 'roll over.' The persistence paid off and the treats definitely helped. What's the coolest trick your dog knows?",
+    "imageUrl": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop",
+    "likes": ["member1", "member2", "member5", "member7"],
+    "comments": [
+      {
+        "Id": 4,
+        "content": "That's amazing! Rocket can play dead but we're still working on roll over.",
+        "author": {
+          "name": "Alex Thompson",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-15T09:20:00Z"
+      },
+      {
+        "Id": 5,
+        "content": "Bella is so smart! Luna knows shake and high five.",
+        "author": {
+          "name": "Sarah Johnson",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-15T09:45:00Z"
+      }
+    ],
+    "timestamp": "2024-01-15T09:00:00Z"
+  },
+  {
+    "Id": 4,
+    "authorId": "member4",
+    "author": {
+      "name": "David Kim",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "online": true
+    },
+    "content": "Looking for recommendations for a good dog groomer in the Upper East Side. Buddy's getting a bit fluffy and needs a professional touch. Bonus points if they're patient with anxious pups!",
+    "imageUrl": null,
+    "likes": ["member2", "member6"],
+    "comments": [
+      {
+        "Id": 6,
+        "content": "Try Pampered Paws on 82nd Street. They're amazing with anxious dogs!",
+        "author": {
+          "name": "Jennifer Walsh",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-14T16:30:00Z"
+      }
+    ],
+    "timestamp": "2024-01-14T16:00:00Z"
+  },
+  {
+    "Id": 5,
+    "authorId": "member5",
+    "author": {
+      "name": "Jennifer Walsh",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+      "online": true
+    },
+    "content": "Coco had her first beach experience yesterday and it was magical! She was hesitant at first but once she felt the sand between her paws, there was no stopping her. The joy on her face was priceless. Can't wait to take her back!",
+    "imageUrl": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&h=400&fit=crop",
+    "likes": ["member1", "member3", "member4", "member7", "member8"],
+    "comments": [
+      {
+        "Id": 7,
+        "content": "Beach dogs are the happiest dogs! Coco looks so content.",
+        "author": {
+          "name": "Alex Thompson",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-14T13:15:00Z"
+      }
+    ],
+    "timestamp": "2024-01-14T13:00:00Z"
+  },
+  {
+    "Id": 6,
+    "authorId": "member6",
+    "author": {
+      "name": "Alex Thompson",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "online": false
+    },
+    "content": "Rocket turns 3 today! 🎉 We're throwing a little birthday party at the dog park at 3 PM. All pups and their humans are welcome. Bringing doggy cake and party hats!",
+    "imageUrl": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=600&h=400&fit=crop",
+    "likes": ["member1", "member2", "member3", "member5", "member6"],
+    "comments": [
+      {
+        "Id": 8,
+        "content": "Happy birthday Rocket! We'll be there with Luna!",
+        "author": {
+          "name": "Sarah Johnson",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-14T10:30:00Z"
+      },
+      {
+        "Id": 9,
+        "content": "Wouldn't miss it! Max loves birthday parties 🎂",
+        "author": {
+          "name": "Mike Chen",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+        },
+        "timestamp": "2024-01-14T11:00:00Z"
+      }
+    ],
+    "timestamp": "2024-01-14T10:00:00Z"
+  }
+]

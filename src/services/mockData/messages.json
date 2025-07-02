@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "senderId": "member1",
+    "sender": {
+      "name": "Sarah Johnson",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Good morning everyone! Looking forward to our walk today 🐕",
+    "timestamp": "2024-01-15T09:00:00Z",
+    "readBy": ["member1", "member2", "member3"]
+  },
+  {
+    "Id": 2,
+    "senderId": "member2",
+    "sender": {
+      "name": "Mike Chen",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Morning Sarah! Max is already excited and waiting by the door 😄",
+    "timestamp": "2024-01-15T09:15:00Z",
+    "readBy": ["member1", "member2"]
+  },
+  {
+    "Id": 3,
+    "senderId": "member3",
+    "sender": {
+      "name": "Emily Rodriguez",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "We'll be there! Bella just finished breakfast and is ready to go",
+    "timestamp": "2024-01-15T09:20:00Z",
+    "readBy": ["member1", "member2", "member3"]
+  },
+  {
+    "Id": 4,
+    "senderId": "member4",
+    "sender": {
+      "name": "David Kim",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Running a few minutes late but we'll catch up. Buddy decided he needed an extra long breakfast 🙄",
+    "timestamp": "2024-01-15T09:45:00Z",
+    "readBy": ["member1", "member4"]
+  },
+  {
+    "Id": 5,
+    "senderId": "member1",
+    "sender": {
+      "name": "Sarah Johnson",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "No worries David! We'll start with a slow pace. The weather is beautiful today ☀️",
+    "timestamp": "2024-01-15T09:50:00Z",
+    "readBy": ["member1", "member2", "member3"]
+  },
+  {
+    "Id": 6,
+    "senderId": "member5",
+    "sender": {
+      "name": "Jennifer Walsh",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Just saw your posts about the cafe Mike! Adding it to our weekend plans for sure",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "readBy": ["member5"]
+  },
+  {
+    "Id": 7,
+    "senderId": "member2",
+    "sender": {
+      "name": "Mike Chen",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "You'll love it Jennifer! They even have a special puppuccino menu. Max went crazy for the peanut butter one",
+    "timestamp": "2024-01-15T10:35:00Z",
+    "readBy": ["member2", "member5"]
+  },
+  {
+    "Id": 8,
+    "senderId": "member6",
+    "sender": {
+      "name": "Alex Thompson",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Thanks everyone for coming to Rocket's birthday party! He had the best time and is completely exhausted now 😴",
+    "timestamp": "2024-01-15T18:00:00Z",
+    "readBy": ["member6"]
+  },
+  {
+    "Id": 9,
+    "senderId": "member3",
+    "sender": {
+      "name": "Emily Rodriguez",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "It was such a fun party! Bella made so many new friends. The doggy cake was a huge hit 🎂",
+    "timestamp": "2024-01-15T18:15:00Z",
+    "readBy": ["member3", "member6"]
+  },
+  {
+    "Id": 10,
+    "senderId": "member7",
+    "sender": {
+      "name": "Lisa Park",
+      "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Don't forget about the photo shoot meetup this weekend! The weather forecast looks perfect for outdoor shots 📸",
+    "timestamp": "2024-01-15T19:30:00Z",
+    "readBy": ["member7"]
+  },
+  {
+    "Id": 11,
+    "senderId": "member1",
+    "sender": {
+      "name": "Sarah Johnson",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b332ab2d?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Luna and I are definitely coming! She's been practicing her best poses 😂",
+    "timestamp": "2024-01-15T19:45:00Z",
+    "readBy": ["member1", "member7"]
+  },
+  {
+    "Id": 12,
+    "senderId": "member8",
+    "sender": {
+      "name": "Robert Martinez",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face"
+    },
+    "content": "Hope everyone's having a great evening! Chester and I just got back from a peaceful walk around the neighborhood",
+    "timestamp": "2024-01-15T20:00:00Z",
+    "readBy": ["member8"]
+  }
+]

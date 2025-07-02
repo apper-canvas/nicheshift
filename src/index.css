@@ -1,0 +1,48 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .toast-container {
+    top: 1rem !important;
+    right: 1rem !important;
+    width: 320px !important;
+  }
+  
+  .Toastify__toast {
+    border-radius: 12px !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 0.875rem !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .Toastify__toast--success {
+    background: linear-gradient(135deg, #10B981, #059669) !important;
+  }
+  
+  .Toastify__toast--error {
+    background: linear-gradient(135deg, #EF4444, #DC2626) !important;
+  }
+  
+  .Toastify__toast--info {
+    background: linear-gradient(135deg, #3B82F6, #2563EB) !important;
+  }
+  
+  .Toastify__toast--warning {
+    background: linear-gradient(135deg, #F59E0B, #D97706) !important;
+  }
+}

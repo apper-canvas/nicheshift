@@ -1,0 +1,49 @@
+{
+  "Id": 1,
+  "name": "NYC Dog Lovers",
+  "description": "A vibrant community of dog enthusiasts in New York City. Connect with fellow dog parents, share experiences, and discover the best dog-friendly spots in the Big Apple.",
+  "location": "New York City, NY",
+  "memberCount": 47,
+  "rules": [
+    "Keep all interactions friendly and respectful",
+    "Share dog-related content and experiences",
+    "No spam or excessive self-promotion",
+    "Respect leash laws and park regulations",
+    "Clean up after your pet at all meetups",
+    "Be punctual for organized events",
+    "Help new members feel welcome"
+  ],
+  "createdAt": "2023-05-01T12:00:00Z",
+  "eventsCount": 12,
+  "postsCount": 89,
+  "activeToday": 23,
+  "moderators": [
+    {
+      "Id": 1,
+      "name": "Sarah Johnson",
+      "role": "Community Founder"
+    },
+    {
+      "Id": 3,
+      "name": "Emily Rodriguez",
+      "role": "Event Coordinator"
+    }
+  ],
+  "featuredMembers": [
+    {
+      "Id": 1,
+      "name": "Sarah Johnson",
+      "reason": "Community Founder"
+    },
+    {
+      "Id": 7,
+      "name": "Lisa Park",
+      "reason": "Pet Photography Expert"
+    },
+    {
+      "Id": 3,
+      "name": "Emily Rodriguez",
+      "reason": "Veterinary Student"
+    }
+  ]
+}
