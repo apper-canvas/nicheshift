@@ -1,4 +1,5 @@
 import membersData from '@/services/mockData/members.json';
+import { badgesService } from '@/services/api/badgesService';
 
 // Simulate network delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -10,16 +11,22 @@ class MembersService {
 
   async getAll() {
     await delay(300);
-    return this.members.map(member => ({ ...member }));
+    return this.members.map(member => ({
+      ...member,
+      badges: badgesService.calculateEarnedBadges(member)
+    }));
   }
 
-  async getById(id) {
+async getById(id) {
     await delay(200);
     const member = this.members.find(m => m.Id === parseInt(id));
     if (!member) {
       throw new Error('Member not found');
     }
-    return { ...member };
+    return {
+      ...member,
+      badges: badgesService.calculateEarnedBadges(member)
+    };
   }
 
   async create(memberData) {
@@ -34,13 +41,16 @@ class MembersService {
       joinedAt: new Date().toISOString(),
       online: true,
       postsCount: 0,
-      eventsAttended: 0,
+eventsAttended: 0,
       connectionsCount: 0,
       eventsOrganized: 0
     };
     
     this.members.push(newMember);
-    return { ...newMember };
+    return {
+      ...newMember,
+      badges: badgesService.calculateEarnedBadges(newMember)
+    };
   }
 
   async update(id, memberData) {
@@ -55,9 +65,12 @@ class MembersService {
       ...this.members[index],
       ...memberData,
       Id: parseInt(id)
-    };
+};
     
-    return { ...this.members[index] };
+    return {
+      ...this.members[index],
+      badges: badgesService.calculateEarnedBadges(this.members[index])
+    };
   }
 
   async delete(id) {
