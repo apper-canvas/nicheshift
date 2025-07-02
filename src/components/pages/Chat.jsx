@@ -53,7 +53,7 @@ const Chat = () => {
     }
   };
 
-  const handleSendMessage = async () => {
+const handleSendMessage = async () => {
     if (!newMessage.trim()) return;
 
     const messageData = {
@@ -61,16 +61,17 @@ const Chat = () => {
       senderId: 'currentUser',
     };
 
+    // Create temp message outside try-catch for proper scope access
+    const tempMessage = {
+      Id: Date.now(),
+      content: newMessage.trim(),
+      sender: { name: 'You', avatar: null },
+      timestamp: new Date().toISOString(),
+      senderId: 'currentUser'
+    };
+
     try {
       // Optimistically add message
-      const tempMessage = {
-        Id: Date.now(),
-        content: newMessage.trim(),
-        sender: { name: 'You', avatar: null },
-        timestamp: new Date().toISOString(),
-        senderId: 'currentUser'
-      };
-      
       setMessages(prev => [...prev, tempMessage]);
       setNewMessage('');
 
@@ -79,7 +80,7 @@ const Chat = () => {
     } catch (err) {
       console.error('Error sending message:', err);
       toast.error('Failed to send message');
-      // Remove the failed message
+      // Remove the failed message - tempMessage is now accessible
       setMessages(prev => prev.filter(msg => msg.Id !== tempMessage.Id));
     }
   };
